@@ -12,3 +12,7 @@ Journal (X) --> Journal Abstract (Y)
 
 [ArXiv Bulk Data Access](https://arxiv.org/help/bulk_data_s3)
 
+## Tools
+
+[PDF Reader Python](https://pypi.org/project/pdfreader/)
+
