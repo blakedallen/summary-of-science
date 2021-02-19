@@ -10,7 +10,6 @@ binary classification, whether or not to include a target sentence in summary.
 CNN/Daily News Summarization dataset
 ~287k training samples of news and summaries
 
-
 Problem: 
 low amounts of data (only ~35k articles with full-text abstract pairs)
 esoteric language used
@@ -31,6 +30,9 @@ Then the results are compared against the gold summary using the ROUGE score.
 Training:
 Language modeling task --> predict the next word token given previous tokens and context
 Multiple choice task --> given a set of keywords, choose the correct gold summary from summary choices
+
+Implementation: 
+https://github.com/VincentK1991/BERT_summarization_1
 
 
 
