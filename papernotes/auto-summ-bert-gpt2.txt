@@ -1,0 +1,38 @@
+
+https://arxiv.org/pdf/2006.01997.pdf
+
+BERT and OpenAI GPT-2 are trained on a very large dataset, such as the entire corpus
+of wikipedia. 
+
+BERTSUM is an extractive summarizer based on the CNN/Daily News Summarization dataset
+binary classification, whether or not to include a target sentence in summary.
+
+CNN/Daily News Summarization dataset
+~287k training samples of news and summaries
+
+Problem: 
+low amounts of data (only ~35k articles with full-text abstract pairs)
+esoteric language used
+
+Baseline:
+Pretrained bert model --> embeddings --> 
+k-medoid clustering analysis is performed to represent semantic centers of the text
+the cluster centers are selected for the extracted summary
+
+Treatment:
+Abstractive summarization is trained to generate a summary from a set of keywords.
+Keywords are extracted using NLTK part of speech tagger. 
+The keywords are paired with the human generated abstract (gold summary abstract)
+these keyword-summary pairs are processed and fet to the GPT-2 model to generate an abstract.
+
+Then the results are compared against the gold summary using the ROUGE score. 
+
+Training:
+Language modeling task --> predict the next word token given previous tokens and context
+Multiple choice task --> given a set of keywords, choose the correct gold summary from summary choices
+
+Implementation: 
+https://github.com/VincentK1991/BERT_summarization_1
+
+
+
