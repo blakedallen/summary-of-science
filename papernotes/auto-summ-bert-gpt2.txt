@@ -2,7 +2,7 @@
 https://arxiv.org/pdf/2006.01997.pdf
 
 BERT and OpenAI GPT-2 are trained on a very large dataset, such as the entire corpus
-of wikipedia. 
+of wikipedia.
 
 BERTSUM is an extractive summarizer based on the CNN/Daily News Summarization dataset
 binary classification, whether or not to include a target sentence in summary.
@@ -33,6 +33,5 @@ Multiple choice task --> given a set of keywords, choose the correct gold summar
 
 Implementation: 
 https://github.com/VincentK1991/BERT_summarization_1
-
 
 
