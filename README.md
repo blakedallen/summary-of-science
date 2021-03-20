@@ -3,7 +3,6 @@ Summary of science is a summarization technology which leverages Natural Languag
 
 Journal Article (X) --> Summary (Y) 
 
-
 ## Research:
 
 [Automatic summarization of scientific articles: A survey](https://www.sciencedirect.com/science/article/pii/S1319157820303554)
