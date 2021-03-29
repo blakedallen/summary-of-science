@@ -1,3 +1,4 @@
+*.jpg
 data/*
 tutorials/data/*
 tutorials/.data/*
