@@ -1,5 +1,10 @@
-data/*
+*.~
 
+*.jpg
+data/*
+tutorials/data/*
+tutorials/.data/*
+*.pth
 
 #pesky .DS_store
 #
